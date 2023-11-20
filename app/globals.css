@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wa-btn{
+    background-color: #6dab3c;
+    background-image: -webkit-linear-gradient(left, #6dab3c 0%, #75d69c 50%,#6dab3c 100%);
+    background-image: linear-gradient(to right, #6dab3c 0%, #75d69c 50%,#6dab3c 100%);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-size: 200% 100%;
+}
+
+.wa-btn:hover{
+    background-color: #75d69c;
+    background-position: 100% 0;
+}
+
+.tele-btn{
+    background-color: #00c1cf;
+    background-image: -webkit-linear-gradient(left, #00c1cf 0%, #8d6dc4 50%,#00c1cf 100%);
+    background-image: linear-gradient(to right, #00c1cf 0%, #8d6dc4 50%,#00c1cf 100%);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-size: 200% 100%;
+}
+
+.tele-btn:hover{
+    background-color: #8d6dc4;
+    background-position: 100% 0;
+}
